@@ -1,0 +1,23 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+out/
+
+# Visual Studio cache/options
+.vs/
+*.user
+*.suo
+
+# Auto-generated files
+*.exe
+*.dll
+*.pdb
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Logs, Cache
+*.log
+*.cache
