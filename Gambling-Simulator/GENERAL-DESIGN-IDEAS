@@ -1,0 +1,67 @@
+GENERAL IDEA
+
+-Gambling simulator game
+overall bad dark humour, and gambling addiction, with substance abuse perhaps
+
+STRUCTURE
+-4 layer location depth which means
+World (earth, Mars?, MOON?) <=== REGION (Countries to Regions like West USA, Paris, East Russia, North korea) <====== CITY (Las Vegas, Vladivostok, Paris, PyongYang, Beijing) <====== SHOP (CASINO names)
+
+NAVIGATION
+-Basic input keyboard reader with options printed in the console
+
+PLAYER
+Player will have AT MINIMUM
+-Money
+-Energy (need to sleep, if broke will go sleep in the streets and may get robbed or stabbed FUNNY!)
+-Inventory (maybe food items, quest items??(ambitious), casino chips, plinko balls, whatever)
+-*maybe health*
+
+ECONOMIC SYSTEM
+-Gameplay loop consists of getting money, gambling it, winning it big or going broke, and if the player goes broke he does odd jobs or crime to get more money to gamble
+
+ECONOMIC DESIGN
+-ACTIVITIES/JOBS: could be general labor to gain stats like money, food, energy but to make them fun perhaps they have to be grim and consisting of a degenerate gambling addict lifestyle
+---IDEAS FOR MONEY---
+-Beg for money outside the casino
+-Rob people, Trade items 
+-Pawn belongings 
+-take loans in a bank
+-work a normal job (boooring) 
+
+---IDEAS FOR ENERGY---
+-Rent a room to sleep at a hotel (bonus on hotel quality?)
+-Sleep outside with the homeless when really broke
+-Start taking drugs (addiction risk?)
+-Buy food you can stock in your inventory
+*-maybe alcohol could give gambling odds bonuses?*
+
+
+---IDEAS FOR SHOPS AND CASINOS---
+-Casinos will have regular games (hardest part to program, i want to make genuine gambling games, but i might have to just have roll the dice games as a starter)
+-Minimum Bet entry fee
+-Payout whenever, Turning chips into money, and money into chips
+-Can buy some drinks and such in the Casino through normal transaction
+-can pass time in casinos
+
+--HOTELS--
+-you can sleep in Hotels, another location available
+-cheap or better rooms for money, to regenerate energy and skip the day
+-also a place to pass time
+
+--Restaurant--
+-you can eat there to regenerate Energy and stock up on food for the big casino sessions
+
+--Bank--
+-Banks allow you to deposit money for safe keeping
+-Perhaps take up loans too, with interest rate (careful about your debt!)
+*-maybe Share trading system could be funny?*
+
+
+--Pawn shops--
+-the player will be able to sell his belongings, pawn them off to get more money to gamble
+-this will allow the player to sell things other than his money
+
+
+
+
