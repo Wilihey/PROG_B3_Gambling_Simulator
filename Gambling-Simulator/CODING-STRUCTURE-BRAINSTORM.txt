@@ -1,0 +1,61 @@
+1st test
+
+at least---
+
+    Hierarchy world, first of
+
+    world => Region => City => Shop
+
+    i will only do City => Shop for now
+
+
+All these are GameObjects with LocationComponents
+
+if they have special needs they will have other components, like ex: 
+Shops will have a LocationComponent, and a ShopComponent (inventory, buy and sell maybe)
+Workplace a LocationComponent, and a WorkComponent (earn money)
+
+So base navigation is handled by a LocationComponent and the other functionalities by other components
+
+
+
+
+THE PLAYER
+
+the player will also be a GameObjects
+he will have a LocationComponent which will be different and allow him to "be at a current location" and "move to a different location which becomes his current location"
+also a  InventoryComponent usable by shops and the player for inventory management, a MoneyComponent to track funds and earning and spending, StatsComponents perhaps for healthy stamina and what navigation
+
+
+
+
+
+
+THE STATE MACHINE
+
+For now we will only have one statemachine, the MainMenuState which will handle the title screen with play or quit, which starts the game or quits the program, and during play the player can always go back to the main MainMenuState
+
+we can also have the ExplorationState when the player is traveling, ShopState which will handle when the player is buying or selling items, and so one
+
+each state has
+
+Enter() → setup when entering.
+
+Update() → logic for this state (e.g. read input, show options).
+
+Exit() → cleanup when leaving.
+
+
+EXAMPLE
+
+"ExplorationState" asks the player’s "PlayerLocationComponent" what children "locations" are available, and displays them as choices.
+
+"ShopState" interacts with the player’s "InventoryComponent" + "MoneyComponent", and with the shop’s "ShopComponent".
+
+
+
+All these handled by the EventManager which can be used inside states to read inputs Key press => trigger event => change state
+
+
+
+
