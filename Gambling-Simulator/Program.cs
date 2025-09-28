@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace Gambling_Simulator
+{
+    internal class Program
+    {
+        static void Main(string[] arg)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
+
+
+

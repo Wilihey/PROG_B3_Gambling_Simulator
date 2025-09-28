@@ -6,6 +6,9 @@
     <RootNamespace>Gambling_Simulator</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>9.0</LangVersion>
+    <EnablePreviewFeatures>false</EnablePreviewFeatures>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
 </Project>
