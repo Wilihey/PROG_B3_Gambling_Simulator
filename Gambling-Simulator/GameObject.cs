@@ -4,7 +4,7 @@
     {
         private Component[] _components = new Component[8];
 
-        public Type GetComponent<TYPE>() where TYPE : Component
+        public TYPE GetComponent<TYPE>() where TYPE : Component
         {
             TYPE result_component = null;
 
